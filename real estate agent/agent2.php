@@ -292,44 +292,7 @@
         </div>
     </section>
 
-    <!-- Review Section -->
-    <section class="review" id="review">
-        <h2>Leave a Review</h2>
-        <form action="submit-review.php" method="POST" class="review-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <textarea name="review" placeholder="Your Review" rows="5" required></textarea>
-
-            <div class="star-rating">
-                <input type="radio" id="star5" name="rating" value="5" required>
-                <label for="star5">&#9733;</label>
-
-                <input type="radio" id="star4" name="rating" value="4">
-                <label for="star4">&#9733;</label>
-
-                <input type="radio" id="star3" name="rating" value="3">
-                <label for="star3">&#9733;</label>
-
-                <input type="radio" id="star2" name="rating" value="2">
-                <label for="star2">&#9733;</label>
-
-                <input type="radio" id="star1" name="rating" value="1">
-                <label for="star1">&#9733;</label>
-            </div>
-
-            <input type="submit" value="Submit Review">
-        </form>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <h2>Contact Me</h2>
-        <form action="submit-form.php" method="POST" class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-            <input type="submit" value="Send Message">
-        </form>
-    </section>
+    
 
     <!-- Footer Section -->
     <footer>
